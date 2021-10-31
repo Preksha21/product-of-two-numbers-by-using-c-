@@ -1,1 +1,31 @@
-# product-of-two-numbers-by-using-c-
+1 c++ to find the size of int,double,float in your system
+#include <iostream>
+using namespace std;
+
+int main() 
+{    
+    cout << "Size of char: " << sizeof(char) << " byte" << endl;
+    cout << "Size of int: " << sizeof(int) << " bytes" << endl;
+    cout << "Size of float: " << sizeof(float) << " bytes" << endl;
+    cout << "Size of double: " << sizeof(double) << " bytes" << endl;
+
+    return 0;
+}
+2 c++ to find the product of two numbers 
+#include <iostream>
+using namespace std;
+
+int main() {
+  double num1, num2, product;
+  cout << "Enter two numbers: ";
+
+  // stores two floating point numbers in num1 and num2 respectively
+  cin >> num1 >> num2;
+ 
+  // performs multiplication and stores the result in product variable
+  product = num1 * num2;  
+
+  cout << "Product = " << product;    
+    
+  return 0;
+}
